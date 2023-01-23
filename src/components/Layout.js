@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <div className='font-main-poppins'>
         <Navbar />
         <div className="content">
             { children }

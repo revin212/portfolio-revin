@@ -3,9 +3,9 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div>
+    <div className='flex justify-between'>
         <div className="leftmenu">
-            <Link to='/'>Home</Link>
+            <Link to='/'>Revin Dennis R.</Link>
         </div>
         <div className="rightmenu">
             <Link to='/'>Skills</Link>
