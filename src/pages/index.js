@@ -1,14 +1,13 @@
 import * as React from "react"
 import '/src/styles/tailwind.css'
 import Layout from '/src/components/Layout.js'
+import Hero from '/src/components/Hero.js'
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout isHomePage = {true}>
       <main>
-        <div className=" bg-main-black text-neutral-white h-screen">
-          Hello world!
-        </div>
+        <Hero />
       </main>
     </Layout>
   )

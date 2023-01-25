@@ -20,6 +20,11 @@ module.exports = {
         'main-poppins': ['Poppins', 'sans-serif'],
       }
     },
+
+      backgroundImage: {
+        'gradient-black': "url('../images/blurry-gradient-haikei-black.svg')",
+        'gradient-blue': "url('../images/blurry-gradient-haikei-blue.svg')",
+      }
   },
   plugins: [],
 }
