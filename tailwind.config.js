@@ -18,13 +18,27 @@ module.exports = {
 
       fontFamily: {
         'main-poppins': ['Poppins', 'sans-serif'],
-      }
-    },
+      },
 
       backgroundImage: {
         'gradient-black': "url('../images/blurry-gradient-haikei-black.svg')",
         'gradient-blue': "url('../images/blurry-gradient-haikei-blue.svg')",
+      },
+
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      },
+
+      animation: {
+        'fade-in': 'fadeIn 300ms linear',
       }
+    },
+
+      
+      
   },
   plugins: [],
 }
