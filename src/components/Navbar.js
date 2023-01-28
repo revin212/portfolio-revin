@@ -43,13 +43,13 @@ export default function Navbar({isHomePage}) {
                 </button>
               </div>
               <div className="desktop-menu gap-[4rem] font-bold hidden lg:flex items-center">
-                <Link to={(isHomePage && '#skills') || (!isHomePage && '/')} 
+                <Link to={(isHomePage && '#skills') || (!isHomePage && '/#skills')} 
                 className='py-6 hover:border-b-[4px] hover:mb-[-4px] border-main-strong-blue' >
                   Skills</Link>
-                <Link to={(isHomePage && '#projects') || (!isHomePage && '/')} 
+                <Link to={(isHomePage && '#projects') || (!isHomePage && '/#projects')} 
                 className='py-6 hover:border-b-4 hover:mb-[-4px] border-main-strong-blue'>
                   Projects</Link>
-                <Link to={(isHomePage && '#contact') || (!isHomePage && '/')} 
+                <Link to={(isHomePage && '#contact') || (!isHomePage && '/#contact')} 
                 className='py-6 hover:border-b-4 hover:mb-[-4px] border-main-strong-blue'>
                   Contact</Link>
               </div>

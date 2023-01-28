@@ -27,8 +27,8 @@ module.exports = {
 
       keyframes: {
         fadeIn: {
-          '0%': { opacity: '0' },
-          '100%': { opacity: '1' },
+          '0%': { opacity: '0', transform: 'rotate(0deg)' },
+          '100%': { opacity: '1', transform: 'rotate(180deg)' },
         },
       },
 
