@@ -5,7 +5,7 @@ import menuIcon from '../images/menu-icon.svg'
 import closeIcon from '../images/close-icon.svg'
 import { useState, useEffect, useRef } from 'react'
 
-export default function Navbar({isHomePage}) {
+export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
   const dropdownMenuRef = useRef();
 
@@ -31,7 +31,7 @@ export default function Navbar({isHomePage}) {
       <div className='z-[2000] bg-gradient-black bg-cover bg-no-repeat fixed left-0 top-0 right-0 '>
         <nav className='flex justify-between items-center px-[1.2rem] lg:px-[2rem] py-[1rem] lg:py-[4px] max-w-[1132px] mx-auto'>
           <div className="leftmenu">
-              <Link to={(isHomePage && '#') || (!isHomePage && '/')}>
+              <Link to='/'>
                 <img src={logo} alt="" className='w-[50px]' />
               </Link>
           </div>
@@ -43,13 +43,13 @@ export default function Navbar({isHomePage}) {
                 </button>
               </div>
               <div className="desktop-menu gap-[4rem] font-bold hidden lg:flex items-center">
-                <Link to={(isHomePage && '#skills') || (!isHomePage && '/#skills')} 
+                <Link to='/#skills'
                 className='py-6 hover:border-b-[4px] hover:mb-[-4px] border-main-strong-blue' >
                   Skills</Link>
-                <Link to={(isHomePage && '#projects') || (!isHomePage && '/#projects')} 
+                <Link to='/#projects' 
                 className='py-6 hover:border-b-4 hover:mb-[-4px] border-main-strong-blue'>
                   Projects</Link>
-                <Link to={(isHomePage && '#contact') || (!isHomePage && '/#contact')} 
+                <Link to='/#contact' 
                 className='py-6 hover:border-b-4 hover:mb-[-4px] border-main-strong-blue'>
                   Contact</Link>
               </div>
@@ -62,10 +62,10 @@ export default function Navbar({isHomePage}) {
         top-[5.5rem] mx-[1.2rem] px-[2rem] flex justify-center 
         flex-col h-[250px] bg-gradient-black bg-cover bg-no-repeat 
         rounded-lg text-center" ref={dropdownMenuRef}>
-              <Link to={isHomePage && '#' || !isHomePage && '/'} className=' py-4' >Home</Link>
-              <Link to={isHomePage && '#skills' || !isHomePage && '/'} className=' py-4' >Skills</Link>
-              <Link to={isHomePage && '#projects' || !isHomePage && '/'} className=' py-4'>Projects</Link>
-              <Link to={isHomePage && '#contact' || !isHomePage && '/'} className=' py-4'>Contact</Link>
+              <Link to='/' className=' py-4' >Home</Link>
+              <Link to='/#skills' className=' py-4' >Skills</Link>
+              <Link to='/#projects' className=' py-4'>Projects</Link>
+              <Link to='/#contact' className=' py-4'>Contact</Link>
       </div>}
     </div>
   )

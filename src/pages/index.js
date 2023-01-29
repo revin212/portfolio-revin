@@ -7,8 +7,8 @@ import Projetcs from "../components/Projetcs"
 
 export default function Home() {
   return (
-    <Layout isHomePage = {true}>
-      <main className=" text-neutral-white">
+    <Layout>
+      <main id="main-content" className=" text-neutral-white">
         <Hero />
         <Skills />
         <Projetcs />
