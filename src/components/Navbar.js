@@ -38,8 +38,8 @@ export default function Navbar() {
           <div className="rightmenu">
               <div className="mobile-menu">
                 <button onClick={dropdownMenu} className="lg:hidden">
-                  {!openMenu && <img src={menuIcon} alt="menu-icon" className=' w-[40px] transition duration-500 animate-fade-in' />}
-                  {openMenu && <img src={closeIcon} alt="close-icon" className=' w-[40px] transition duration-500 animate-fade-in' />}
+                  {!openMenu && <img src={menuIcon} alt="menu-icon" className=' w-[40px] transition duration-500 animate-fade-in-rotate' />}
+                  {openMenu && <img src={closeIcon} alt="close-icon" className=' w-[40px] transition duration-500 animate-fade-in-rotate' />}
                 </button>
               </div>
               <div className="desktop-menu gap-[4rem] font-bold hidden lg:flex items-center">

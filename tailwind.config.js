@@ -26,14 +26,14 @@ module.exports = {
       },
 
       keyframes: {
-        fadeIn: {
+        fadeInRotate: {
           '0%': { opacity: '0', transform: 'rotate(0deg)' },
           '100%': { opacity: '1', transform: 'rotate(180deg)' },
         },
       },
 
       animation: {
-        'fade-in': 'fadeIn 300ms linear',
+        'fade-in-rotate': 'fadeInRotate 300ms linear',
       }
     },
 
