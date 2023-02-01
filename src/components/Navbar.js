@@ -58,7 +58,7 @@ export default function Navbar() {
       </div>
       
       {openMenu && 
-      <div id='dropdown-menu' className="dropdown-menu dropdown fixed lg:hidden left-0 right-0
+      <div id='dropdown-menu' className="dropdown-menu dropdown z-[1000] fixed lg:hidden left-0 right-0
         top-[5.5rem] mx-[1.2rem] px-[2rem] flex justify-center 
         flex-col h-[250px] bg-gradient-black bg-cover bg-no-repeat 
         rounded-lg text-center" ref={dropdownMenuRef}>
