@@ -1,6 +1,6 @@
 import React from 'react'
 import MainProject from './projects/MainProject'
-import SubProjects from './projects/SubProjects'
+import SubProjects2 from './projects/SubProjects2'
 
 
 export default function Projetcs() {
@@ -11,7 +11,7 @@ export default function Projetcs() {
                 PROJECTS
         </h2>
         <MainProject />
-        <SubProjects />
+        <SubProjects2 />
         </div>
     </div>
   )
