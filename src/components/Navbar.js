@@ -28,8 +28,8 @@ export default function Navbar() {
 
   return (
     <div className="header-container relative text-neutral-white">
-      <div className='z-[2000] bg-gradient-black bg-cover bg-no-repeat fixed left-0 top-0 right-0 '>
-        <nav className='flex justify-between items-center px-[1.2rem] lg:px-[2rem] py-[1rem] lg:py-[4px] max-w-[1132px] mx-auto'>
+      <div className='z-[2000] px-[1.2rem] lg:px-[2rem] bg-gradient-black bg-cover bg-no-repeat fixed left-0 top-0 right-0 '>
+        <nav className='flex justify-between items-center py-[1rem] lg:py-[4px] max-w-[1132px] mx-auto'>
           <div className="leftmenu">
               <Link to='/'>
                 <img src={logo} alt="" className='w-[50px]' />
@@ -44,13 +44,13 @@ export default function Navbar() {
               </div>
               <div className="desktop-menu gap-[4rem] font-bold hidden lg:flex items-center">
                 <Link to='/#skills'
-                className='py-6 hover:border-b-[4px] hover:mb-[-4px] border-main-strong-blue' >
+                className='py-6 hover:border-b-[4px] hover:mb-[-4px] border-main-strong-blue transition-all duration-100' >
                   Skills</Link>
                 <Link to='/#projects' 
-                className='py-6 hover:border-b-4 hover:mb-[-4px] border-main-strong-blue'>
+                className='py-6 hover:border-b-4 hover:mb-[-4px] border-main-strong-blue transition-all duration-100'>
                   Projects</Link>
                 <Link to='/#contact' 
-                className='py-6 hover:border-b-4 hover:mb-[-4px] border-main-strong-blue'>
+                className='py-6 hover:border-b-4 hover:mb-[-4px] border-main-strong-blue transition-all duration-100'>
                   Contact</Link>
               </div>
           </div>

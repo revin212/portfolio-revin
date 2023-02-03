@@ -4,6 +4,7 @@ import Layout from '/src/components/Layout.js'
 import Hero from '/src/components/Hero.js'
 import Skills from "../components/Skills"
 import Projetcs from "../components/Projetcs"
+import Contact from "../components/Contact"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <Skills />
         <Projetcs />
+        <Contact />
       </main>
     </Layout>
   )
