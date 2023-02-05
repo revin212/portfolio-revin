@@ -15,7 +15,8 @@ export default function Email() {
 
   return (
     <div className="email-wrapper max-w-[1132px] mx-auto">
-        <h2 className='projects-title font-bold text-[2.8rem] text-center mb-[1.5rem] lg:mb-[3rem]'>
+        <h2 className='projects-title font-bold text-[2.8rem] text-center mb-[1.5rem] lg:mb-[3rem]'
+        data-aos='fade-down'>
                 EMAIL ME
         </h2>
         <form onSubmit={
@@ -26,6 +27,7 @@ export default function Email() {
         }
             className='flex flex-col'
             ref={formRef}
+            data-aos='fade-right'
         >
         <label htmlFor="email" className='font-semibold mb-2'>
             Your Email Address
@@ -69,7 +71,7 @@ export default function Email() {
         <div className="submit lg:w-full lg:flex lg:justify-end">
             {!state.submitting?
             <button type="submit" disabled={state.submitting} 
-                className=' font-semibold bg-neutral-dark-gray hover:bg-neutral-400 hover:text-main-black rounded-md py-2 w-full lg:w-[300px]'
+                className=' font-semibold bg-neutral-dark-gray transition-colors duration-200 hover:bg-neutral-400 hover:text-main-black rounded-md py-2 w-full lg:w-[300px]'
             >
                 Send
             </button>

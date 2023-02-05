@@ -14,10 +14,13 @@
   },
   "dependencies": {
     "@formspree/react": "^2.4.1",
+    "aos": "^2.3.4",
     "gatsby": "^5.4.2",
     "gatsby-plugin-manifest": "^5.5.0",
+    "gatsby-plugin-react-helmet": "^6.5.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0"
   },
   "repository": {
     "type": "git",

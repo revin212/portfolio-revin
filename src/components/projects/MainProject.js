@@ -1,30 +1,27 @@
 import React from 'react'
 import htmlIcon from '../../images/html5-icon.svg'
-// import cssIcon from '../../images/css-icon.svg'
-// import jsIcon from '../../images/javascript-icon.svg'
-// import sassIcon from '../../images/sass-icon.svg'
 import tailwindIcon from '../../images/tailwindcss-icon.svg'
 import reactjsIcon from '../../images/reactjs-icon.svg'
 import expressjsIcon from '../../images/expressjs-icon.svg'
 import mysqlIcon from '../../images/mysql-icon.svg'
+import jwtIcon from '../../images/jwt-icon.svg'
+import sequelizeIcon from '../../images/sequelize-icon.svg'
 
 
 export default function MainProject() {
   return (
-    <div className="main-project flex flex-col lg:flex-row-reverse lg:items-start gap-[2rem] mb-[2rem]">
-            <div className="project-img bg-gradient-black bg-cover bg-no-repeat h-[300px] lg:h-[345px] rounded-xl p-[1.5rem] lg:w-1/2">
-              <div className="img">
-
-              </div>
-            </div>
-            <div className="project-desc bg-gradient-black bg-cover bg-no-repeat rounded-xl p-[1.5rem] text-center lg:text-left lg:w-1/2">
-              <h3 className=' font-bold text-3xl mb-[1.5rem]'>Project Title</h3>
-              <div className="stacks text-sm flex flex-wrap gap-4 justify-center lg:justify-start">
+    <div className="main-project flex flex-col-reverse lg:grid lg:grid-cols-2 gap-[2rem] mb-[2rem]">
+            <div className="project-desc bg-gradient-black bg-cover bg-no-repeat rounded-xl p-[1.5rem] text-center lg:text-left lg:w-full lg:flex lg:flex-col lg:justify-end">
+              <div data-aos='fade-right'>
+              <h3 className=' font-bold text-3xl lg:text-4xl mb-[1.5rem]'>Simple Social Media Website</h3>
+              <div className="stacks text-sm flex flex-wrap items-center gap-4 justify-center lg:justify-start">
                 <img src={htmlIcon} alt="html" className='w-[30px]' />
                 <img src={tailwindIcon} alt="tailwind" className='w-[30px]' />
                 <img src={reactjsIcon} alt="reactjs" className='w-[30px]' />
                 <img src={expressjsIcon} alt="expressjs" className='w-[60px]' />
                 <img src={mysqlIcon} alt="mysql" className='w-[40px]' />
+                <img src={jwtIcon} alt="jwt" className='w-[30px]' />
+                <img src={sequelizeIcon} alt="sequelize" className='w-[30px] h-[30px]' />
               </div>
               <div className="desc my-[1.5rem]">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt corrupti libero ipsam earum, dolore non! Quisquam aliquid qui iste, nobis sequi in, repellendus, adipisci nulla architecto expedita perspiciatis illo at.</p>
@@ -35,7 +32,15 @@ export default function MainProject() {
                    hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Source Code</button>
                 </div>
               </div>
+              </div>
+            </div>
+
+            <div id='main-project-img' className="project-img bg-gradient-black bg-cover bg-no-repeat rounded-xl p-[1.5rem] h-full lg:w-full">
+              <div className="img h-[350px] lg:h-full rounded-xl bg-simple-socmed-project bg-cover lg:bg-top bg-no-repeat" 
+              data-aos='fade-left'>
+              </div>
             </div>
     </div>
   )
+
 }

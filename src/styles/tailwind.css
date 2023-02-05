@@ -60,11 +60,11 @@
 }
 
 #mobileSubProject.active {
-    animation: fadeIn 500ms ease forwards;
+    animation: fadeIn 1500ms ease forwards;
 }
 
 #mobileSubProject.changing {
-    animation: fadeIn2 500ms ease forwards;
+    animation: fadeIn2 1500ms ease forwards;
 }
 
 /* Change Autocomplete styles in Chrome*/
@@ -82,8 +82,4 @@ select:-webkit-autofill:focus {
   -webkit-text-fill-color: white;
   -webkit-box-shadow: 0 0 0px 1000px #282828 inset;
   transition: background-color 5000s ease-in-out 0s;
-}
-
-:required:invalid{
-    background-color: #282828;
 }

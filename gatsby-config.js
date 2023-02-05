@@ -8,6 +8,10 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  siteMetadata: {
+    title: `Revin's Portfolio`,
+    description: `Revin Dennis Ramadhan's Front End Portfolio`,
+  },
   plugins: [
     'gatsby-plugin-postcss',
     {
@@ -15,6 +19,7 @@ module.exports = {
       options: {
         icon: 'src/images/revin-logo.png',
       }
-    }
+    },
+    'gatsby-plugin-react-helmet'
   ],
 }
