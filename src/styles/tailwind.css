@@ -87,3 +87,37 @@ select:-webkit-autofill:focus {
 .desktop-menu .main-menu.active{
     @apply border-b-4 mb-[-4px]
 }
+
+#left-btn{
+    top: 17rem;
+}
+#right-btn{
+    top: 17rem;
+}
+
+@media only screen and (min-width: 380px) {
+    #left-btn{
+        top: 15rem;
+    }
+    #right-btn{
+        top: 15rem;
+    }
+  }
+
+@media only screen and (min-width: 500px) {
+    #left-btn{
+        top: 12rem;
+    }
+    #right-btn{
+        top: 12rem;
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+    #left-btn{
+        top: 11rem;
+    }
+    #right-btn{
+        top: 11rem;
+    }
+  }

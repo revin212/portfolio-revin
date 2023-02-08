@@ -199,7 +199,7 @@ export default function SubProjects() {
   })
 
   return (
-    <div className="sub-projects relative flex overflow-hidden lg:grid lg:grid-cols-12 lg:gap-[1rem] bg-gradient-black lg:bg-none rounded-xl"
+    <div className="sub-projects relative flex overflow-hidden lg:grid lg:grid-cols-12 lg:gap-[1rem] bg-gradient-black bg-cover bg-no-repeat lg:bg-none rounded-xl"
     data-aos='fade-left' data-aos-offset='300'>
             {isDesktopScreen&&
                 projectsList.map((project, index) => {
@@ -214,10 +214,10 @@ export default function SubProjects() {
                 </div>
             }
 
-            <button onClick={prevProject} className='left-btn lg:hidden rounded-full opacity-40 hover:opacity-100 flex justify-center items-center w-[45px] h-[45px] absolute top-[45%] left-[-10px]'>
+            <button onClick={prevProject} id='left-btn' className='left-btn lg:hidden rounded-full opacity-40 hover:opacity-100 flex justify-center items-center w-[45px] h-[45px] absolute left-[-10px]'>
                 <img src={leftBtn} alt="left-btn" className='w-[35px] translate-x-[-2px]' />
             </button>
-            <button onClick={nextProject} className='right-btn lg:hidden rounded-full opacity-40 hover:opacity-100 flex justify-center items-center w-[45px] h-[45px] absolute top-[45%] right-[-10px]'>
+            <button onClick={nextProject} id='right-btn' className='right-btn lg:hidden rounded-full opacity-40 hover:opacity-100 flex justify-center items-center w-[45px] h-[45px] absolute right-[-10px]'>
                 <img src={rightBtn} alt="right-btn" className='w-[35px] translate-x-[2px]' />
             </button>
     </div>
