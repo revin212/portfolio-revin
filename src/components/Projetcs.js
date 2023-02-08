@@ -8,7 +8,7 @@ export default function Projetcs() {
     <div>
         <div className="projects-wrapper max-w-[1132px] mx-auto mb-[3rem]">
         <h2 className='projects-title font-bold text-[2.8rem] text-center mb-[1.5rem] lg:mb-[3rem]'
-            data-aos='fade-down' data-aos-offset='200'>
+            data-aos='fade-down' data-aos-offset='400'>
                 PROJECTS
         </h2>
         <MainProject />

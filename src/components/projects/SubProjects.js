@@ -26,13 +26,19 @@ export default function SubProjects() {
                     </div>
 
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere cupiditate autem excepturi expedita veritatis nobis.
+                        This website contains information about countries such as the country's flag, language, currency, population, etc. In addition, there are 'search' feature and 'filter by region' feature on the website. This project built with React JS and Tailwind CSS stack and an open API "REST Countries".
                     </p>
                     <div className="buttons flex flex-col gap-[0.8rem] lg:flex-row lg:gap-[1.5rem] mt-[1.5rem] justify-center lg:justify-start">
-                    <button className='font-semibold text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
+                    
+                    <a href='https://fascinating-lily-f1ce41.netlify.app/' target="_blank" rel="noreferrer">
+                    <button className='font-semibold w-full text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
                     hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Live View</button>
-                    <button className='font-semibold text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
+                    </a>
+
+                    <a href='https://github.com/revin212/rest-countries-api-with-color-theme-switcher/' target="_blank" rel="noreferrer">
+                    <button className='font-semibold w-full text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
                     hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Source Code</button>
+                    </a>
                     </div>
                 </div>
         </div>)}
@@ -52,13 +58,19 @@ export default function SubProjects() {
                     </div>
 
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere cupiditate autem excepturi expedita veritatis nobis.
+                        In this website, user can shorten an url by submitting the original url into the provided input form by the website, and the website will render the shortened urls along with its original url. This project built with React JS and Tailwind CSS stack and an open API "srtcode".
                     </p>
                     <div className="buttons flex flex-col gap-[0.8rem] mt-[1.5rem] justify-center lg:justify-start">
-                    <button className='font-semibold text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
+                    
+                    <a href='https://revin-url-shortening-app.netlify.app/' target="_blank" rel="noreferrer">
+                    <button className='font-semibold w-full text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
                     hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Live View</button>
-                    <button className='font-semibold text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
+                    </a>
+
+                    <a href='https://github.com/revin212/url-shortening-app' target="_blank" rel="noreferrer">
+                    <button className='font-semibold w-full text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
                     hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Source Code</button>
+                    </a>
                     </div>
                 </div>
         </div>)}
@@ -78,13 +90,19 @@ export default function SubProjects() {
                     </div>
 
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere cupiditate autem excepturi expedita veritatis nobis.
+                        In this website, user can track an IP address and get information such as IP location, timezone, and ISP. This project built with React JS and Tailwind CSS stack and two open APIs "IPify IP Geolocation" & "LeafletJS Map".
                     </p>
-                    <div className="buttons flex flex-col gap-[0.8rem] mt-[1.5rem] justify-center lg:justify-start">
-                    <button className='font-semibold text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
+                    <div className="buttons flex flex-col gap-[0.8rem] mt-[1.5rem] justify-center lg:justify-start w-full">
+                    
+                    <a href='https://ip-adress-tracker-one.vercel.app/' target="_blank" rel="noreferrer">
+                    <button className='font-semibold w-full text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
                     hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Live View</button>
-                    <button className='font-semibold text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
+                    </a>
+
+                    <a href='https://github.com/revin212/ip-adress-tracker' target="_blank" rel="noreferrer">
+                    <button className='font-semibold w-full text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
                     hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Source Code</button>
+                    </a>
                     </div>
                 </div>
         </div>)}
@@ -104,13 +122,19 @@ export default function SubProjects() {
                     </div>
 
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere cupiditate autem excepturi expedita veritatis nobis.
+                        This is a simple calculator app, which can calculate basic math operation such as adding, substracting, multiplying, and dividing. The calculation program built with considerations of error cases such as divide by zero, 0/0, NaN, etc. In addition, this app have 3 different themes which can be toggled with a toggle button.
                     </p>
                     <div className="buttons flex flex-col gap-[0.8rem] lg:flex-row lg:gap-[1.5rem] mt-[1.5rem] justify-center lg:justify-start">
-                    <button className='font-semibold text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
+                    
+                    <a href='https://calculator-app-theta-five.vercel.app/' target="_blank" rel="noreferrer">
+                    <button className='font-semibold w-full text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
                     hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Live View</button>
-                    <button className='font-semibold text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
+                    </a>
+
+                    <a href='https://github.com/revin212/calculator-app' target="_blank" rel="noreferrer">
+                    <button className='font-semibold w-full text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
                     hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Source Code</button>
+                    </a>
                     </div>
                 </div>
         </div>)}
@@ -129,7 +153,6 @@ export default function SubProjects() {
         mobileSubProject.current.classList.add('active');
     }
 
-    //console.log(projectNum)
     if(projectNum === 0){
         setProjectNum(3)
     } else {
@@ -145,7 +168,6 @@ export default function SubProjects() {
         mobileSubProject.current.classList.remove('changing');
         mobileSubProject.current.classList.add('active');
     }
-    // console.log(projectNum)
 
     if(projectNum === 3){
         setProjectNum(0)
@@ -162,25 +184,23 @@ export default function SubProjects() {
   useEffect(() => {
     // media watcher, for resetting the image slider margin when the screen is desktop
     const mediaWatcher = window.matchMedia("(min-width: 1024px)")
-    // setIsDesktopScreen(mediaWatcher.matches)
+
     // watch for updates
     function updateIsDesktopScreen(e) {
       setIsDesktopScreen(e.matches);
     }
 
     mediaWatcher.addEventListener('change', updateIsDesktopScreen)
-    // mediaWatcher.addEventListener('load', updateIsDesktopScreen)
 
     // clean up event listener
     return () => {
       mediaWatcher.removeEventListener('change', updateIsDesktopScreen)
-    //   mediaWatcher.addEventListener('load', updateIsDesktopScreen)
     }
   })
 
   return (
     <div className="sub-projects relative flex overflow-hidden lg:grid lg:grid-cols-12 lg:gap-[1rem] bg-gradient-black lg:bg-none rounded-xl"
-    data-aos='fade-left'>
+    data-aos='fade-left' data-aos-offset='400'>
             {isDesktopScreen&&
                 projectsList.map((project, index) => {
                     return (

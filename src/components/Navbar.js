@@ -62,10 +62,10 @@ export default function Navbar() {
         top-[5.5rem] mx-[1.2rem] px-[2rem] flex justify-center 
         flex-col h-[250px] bg-gradient-black bg-cover bg-no-repeat 
         rounded-lg text-center" ref={dropdownMenuRef}>
-              <Link to='/' className=' py-4'  onClick={dropdownMenu} >Home</Link>
-              <Link to='/#skills' className=' py-4'  onClick={dropdownMenu} >Skills</Link>
-              <Link to='/#projects' className=' py-4' onClick={dropdownMenu} >Projects</Link>
-              <Link to='/#contact' className=' py-4' onClick={dropdownMenu} >Contact</Link>
+              <Link to='hero' spy={true} smooth={true} duration={500} offset={-80} className=' py-4 cursor-pointer'  onClick={dropdownMenu} >Home</Link>
+              <Link to='skills' spy={true} smooth={true} duration={500} offset={-80} className=' py-4 cursor-pointer'  onClick={dropdownMenu} >Skills</Link>
+              <Link to='projects' spy={true} smooth={true} duration={500} offset={-80} className=' py-4 cursor-pointer' onClick={dropdownMenu} >Projects</Link>
+              <Link to='contact' spy={true} smooth={true} duration={500} offset={-80} className=' py-4 cursor-pointer' onClick={dropdownMenu} >Contact</Link>
       </div>}
     </div>
   )
