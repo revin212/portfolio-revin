@@ -35,10 +35,5 @@
     "gatsby-plugin-postcss": "^6.4.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4"
-  },
-  "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "webpack": "^5.59.0"
   }
 }
