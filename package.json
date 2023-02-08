@@ -37,8 +37,8 @@
     "tailwindcss": "^3.2.4"
   },
   "peerDependencies": {
-    "react": "0.0.0-experimental-996e4c0d5-20221212",
-    "react-dom": "0.0.0-experimental-996e4c0d5-20221212",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "webpack": "^5.59.0"
   }
 }
