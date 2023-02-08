@@ -16,7 +16,7 @@ export default function Email() {
   return (
     <div className="email-wrapper max-w-[1132px] mx-auto">
         <h2 className='projects-title font-bold text-[2.8rem] text-center mb-[1.5rem] lg:mb-[3rem]'
-        data-aos='fade-down'>
+        data-aos='fade-down' data-aos-offset='-100'>
                 EMAIL ME
         </h2>
         <form onSubmit={
@@ -28,6 +28,7 @@ export default function Email() {
             className='flex flex-col'
             ref={formRef}
             data-aos='fade-right'
+            data-aos-offset='-100'
         >
         <label htmlFor="email" className='font-semibold mb-2'>
             Your Email Address

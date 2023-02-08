@@ -8,9 +8,9 @@ import leetcodeIcon from '../../images/leetcode-icon.svg'
 export default function Socmed() {
   return (
     <div className="socmed my-[5rem] flex flex-col items-center">
-      <h2 className='font-bold text-center text-[2.4rem] mb-6' data-aos='fade-down'>Find me on</h2>
+      <h2 className='font-bold text-center text-[2.4rem] mb-6' data-aos='fade-down' data-aos-offset='-100'>Find me on</h2>
       <div className="stack-icons w-full flex flex-wrap justify-center items-center gap-10"
-            data-aos='fade-left'>
+            data-aos='fade-left' data-aos-offset='-100'>
         <a href='https://github.com/revin212' target="_blank" rel="noreferrer">
           <img src={githubIcon} alt="github" className='w-[64px]' />
         </a>
