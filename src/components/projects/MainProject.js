@@ -11,7 +11,7 @@ export default function MainProject() {
   return (
     <div className="main-project flex flex-col-reverse lg:grid lg:grid-cols-2 gap-[2rem] mb-[2rem]">
             <div className="project-desc bg-gradient-black bg-cover bg-no-repeat rounded-xl p-[1.5rem] text-center lg:text-left lg:w-full lg:flex lg:flex-col lg:justify-end"
-            data-aos='fade-right' data-aos-offset='350'>
+            data-aos='fade-right' data-aos-offset='300'>
               <h3 className=' font-bold text-3xl lg:text-4xl mb-[1.5rem]'>Simple Social Media Website</h3>
               <div className="stacks text-sm flex flex-wrap items-center gap-4 justify-center lg:justify-start">
                 <img src={htmlIcon} alt="html" className='w-[30px]' />
@@ -40,7 +40,7 @@ export default function MainProject() {
             </div>
 
             <div id='main-project-img' className="project-img bg-gradient-black bg-cover bg-no-repeat rounded-xl p-[1.5rem] h-full lg:w-full"
-            data-aos='fade-left' data-aos-offset='350'>
+            data-aos='fade-left' data-aos-offset='300'>
               <div className="img h-[350px] lg:h-full rounded-xl bg-simple-socmed-project bg-cover lg:bg-top bg-no-repeat">
               </div>
             </div>

@@ -33,7 +33,7 @@ export default function Home() {
         <div id='projects' className='projects-section overflow-hidden w-full bg-main-black px-[1.2rem] lg:px-[2rem] py-[4rem]'>
           <Projetcs />
         </div>
-        <div id='contact' className='contact-section overflow-hidden bg-gradient-blue bg-cover bg-no-repeat w-full px-[1.2rem] lg:px-[2rem] py-[4rem]'>
+        <div id='contact' className='contact-section overflow-hidden bg-gradient-blue bg-cover bg-no-repeat w-full px-[1.2rem] lg:px-[2rem] pt-[4rem] pb-[6rem]'>
           <Contact />
         </div>
       </main>

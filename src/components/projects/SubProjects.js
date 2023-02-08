@@ -200,7 +200,7 @@ export default function SubProjects() {
 
   return (
     <div className="sub-projects relative flex overflow-hidden lg:grid lg:grid-cols-12 lg:gap-[1rem] bg-gradient-black lg:bg-none rounded-xl"
-    data-aos='fade-left' data-aos-offset='350'>
+    data-aos='fade-left' data-aos-offset='300'>
             {isDesktopScreen&&
                 projectsList.map((project, index) => {
                     return (
