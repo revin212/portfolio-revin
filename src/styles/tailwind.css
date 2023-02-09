@@ -16,23 +16,6 @@
     }
 }
 
-@keyframes fadeIn {
-    from{
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-@keyframes fadeIn2 {
-    from{
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
 /* dropdown menu animation */
 #dropdown-menu{
     animation: dropdownMenu 300ms ease forwards;
@@ -58,15 +41,6 @@
         line-height: 1.3rem;
 
     }
-}
-
-/* sub projects mobile animation */
-#mobileSubProject.active {
-    animation: fadeIn 1500ms ease forwards;
-}
-
-#mobileSubProject.changing {
-    animation: fadeIn2 1500ms ease forwards;
 }
 
 /* Change Autocomplete styles in Chrome*/

@@ -1,4 +1,5 @@
 import React from 'react'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import Photo from '../images/main-photo.png'
 
 export default function Hero() {
@@ -7,7 +8,12 @@ export default function Hero() {
         <div id='hero' className="content-container py-6 flex flex-col lg:flex-row-reverse lg:justify-between items-center px-[1.2rem] lg:px-[2rem] max-w-[1132px] mx-auto">
           
           <div className='img-container lg: mb-[2rem]' >
-            <img src={Photo} alt="Profile" className='w-[350px]' data-aos='fade-left' />
+            <LazyLoadImage
+            effect='blur'            
+            src={Photo} 
+            alt="Profile" 
+            className='w-[350px]' 
+            data-aos='fade-left' />            
           </div>
 
           <div className="hero-title w-full lg:w-[700px] mt-[2rem] lg:mt-0 lg:pb-[1rem] text-center lg:text-left overflow-clip">
