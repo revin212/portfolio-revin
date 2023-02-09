@@ -4,6 +4,7 @@ import linkedinIcon from '../../images/linkedin-icon.svg'
 import instagramIcon from '../../images/instagram-icon.svg'
 import frontendmentorIcon from '../../images/frontendmentor-icon.svg'
 import leetcodeIcon from '../../images/leetcode-icon.svg'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 export default function Socmed() {
   return (
@@ -12,23 +13,28 @@ export default function Socmed() {
       <div className="stack-icons w-full flex flex-wrap justify-center items-center gap-10"
             data-aos='fade-left' data-aos-offset='-300'>
         <a href='https://github.com/revin212' target="_blank" rel="noreferrer">
-          <img src={githubIcon} alt="github" className='w-[64px]' />
+          <LazyLoadImage
+          src={githubIcon} alt="github" className='w-[64px]' />
         </a>
 
         <a href='https://www.linkedin.com/in/revin-dennis-ramadhan' target="_blank" rel="noreferrer">
-          <img src={linkedinIcon} alt="linkedin" className='w-[64px]' />
+          <LazyLoadImage
+          src={linkedinIcon} alt="linkedin" className='w-[64px]' />
         </a>
 
         <a href='https://www.instagram.com/revindr21/' target="_blank" rel="noreferrer">
-          <img src={instagramIcon} alt="instagram" className='w-[64px]' />
+          <LazyLoadImage
+          src={instagramIcon} alt="instagram" className='w-[64px]' />
         </a>
 
         <a href='https://www.frontendmentor.io/profile/revin212' target="_blank" rel="noreferrer">
-          <img src={frontendmentorIcon} alt="frontendmentor" className='w-[64px]' />
+          <LazyLoadImage
+          src={frontendmentorIcon} alt="frontendmentor" className='w-[64px]' />
         </a>
 
         <a href='https://leetcode.com/revinramadhan' target="_blank" rel="noreferrer">
-          <img src={leetcodeIcon} alt="leetcode" className='w-[64px]' />
+          <LazyLoadImage
+          src={leetcodeIcon} alt="leetcode" className='w-[64px]' />
         </a>
       </div>
     </div>

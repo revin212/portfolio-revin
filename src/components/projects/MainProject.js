@@ -5,6 +5,7 @@ import reactjsIcon from '../../images/reactjs-icon.svg'
 import expressjsIcon from '../../images/expressjs-icon.svg'
 import mysqlIcon from '../../images/mysql-icon.svg'
 import jwtIcon from '../../images/jwt-icon.svg'
+import { LazyLoadComponent } from 'react-lazy-load-image-component'
 
 
 export default function MainProject() {
@@ -41,8 +42,10 @@ export default function MainProject() {
 
             <div id='main-project-img' className="project-img bg-gradient-black bg-cover bg-no-repeat rounded-xl p-[1.5rem] h-full lg:w-full"
             data-aos='fade-left' data-aos-offset='300'>
+              <LazyLoadComponent>
               <div className="img h-[350px] lg:h-full rounded-xl bg-simple-socmed-project bg-cover lg:bg-top bg-no-repeat">
               </div>
+              </LazyLoadComponent>
             </div>
     </div>
   )

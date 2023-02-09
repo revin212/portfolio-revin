@@ -9,7 +9,6 @@ export default function Hero() {
           
           <div className='img-container lg: mb-[2rem]' >
             <LazyLoadImage
-            effect='blur'            
             src={Photo} 
             alt="Profile" 
             className='w-[350px]' 

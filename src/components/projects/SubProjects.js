@@ -3,10 +3,12 @@ import htmlIcon from '../../images/html5-icon.svg'
 import tailwindIcon from '../../images/tailwindcss-icon.svg'
 import reactjsIcon from '../../images/reactjs-icon.svg'
 import jsIcon from '../../images/javascript-icon.svg'
+import { LazyLoadComponent } from 'react-lazy-load-image-component'
 
 export default function SubProjects() {
   return (
     <div className='grid grid-cols-1 gap-[1rem] lg:grid-cols-12'>
+        <LazyLoadComponent>
         <div className="sub-projects flex overflow-hidden bg-gradient-black bg-cover bg-no-repeat lg:bg-none rounded-xl lg:col-span-8"
         data-aos='fade-right' data-aos-offset='300'>
         <div className="project-1 px-6 py-8 bg-gradient-black bg-no-repeat w-full shrink-0  rounded-xl">
@@ -39,7 +41,9 @@ export default function SubProjects() {
             </div>
         </div>
         </div>
+        </LazyLoadComponent>
     
+        <LazyLoadComponent>
         <div className="sub-projects flex overflow-hidden bg-gradient-black bg-cover bg-no-repeat lg:bg-none rounded-xl lg:col-span-4"
         data-aos='fade-left' data-aos-offset='300'>
         <div className="project-2 px-6 py-8 bg-gradient-black bg-no-repeat w-full shrink-0 rounded-xl">
@@ -72,7 +76,9 @@ export default function SubProjects() {
             </div>
         </div>
         </div>
+        </LazyLoadComponent>
 
+        <LazyLoadComponent>
         <div className="sub-projects flex overflow-hidden bg-gradient-black bg-cover bg-no-repeat lg:bg-none rounded-xl lg:col-span-4"
         data-aos='fade-right' data-aos-offset='300'>
         <div className="project-3 px-6 py-8 bg-gradient-black bg-no-repeat w-full shrink-0 rounded-xl">
@@ -106,7 +112,9 @@ export default function SubProjects() {
             </div>
         </div>
         </div>
+        </LazyLoadComponent>
 
+        <LazyLoadComponent>
         <div className="sub-projects flex overflow-hidden bg-gradient-black bg-cover bg-no-repeat lg:bg-none rounded-xl lg:col-span-8"
         data-aos='fade-left' data-aos-offset='300'>
         <div className="project-4 px-6 py-8 bg-gradient-black bg-no-repeat w-full shrink-0 rounded-xl">
@@ -140,6 +148,7 @@ export default function SubProjects() {
             </div>
         </div>
         </div>
+        </LazyLoadComponent>
     </div>
   )
 }
