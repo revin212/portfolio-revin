@@ -6,18 +6,18 @@ import Skills from "../components/Skills"
 import Projetcs from "../components/Projetcs"
 import Contact from "../components/Contact"
 import { Helmet } from "react-helmet"
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+// import AOS from 'aos'
+// import 'aos/dist/aos.css'
 import { useEffect } from "react"
 
 
 export default function Home() {
-  useEffect(()=>{
-    AOS.init({
-      once: true,
-      duration: 1700,
-    })
-  }, [])
+  // useEffect(()=>{
+  //   AOS.init({
+  //     once: true,
+  //     duration: 1700,
+  //   })
+  // }, [])
 
 
   return (
