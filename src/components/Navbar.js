@@ -25,7 +25,7 @@ export default function Navbar() {
     return () => {
       document.removeEventListener('mousedown', handler);
     }
-  })
+  }, [openMenu])
 
   return (
     <div className="header-container relative text-neutral-white">
