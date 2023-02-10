@@ -26,4 +26,3 @@ export default function Hero() {
     </div>
   )
 }
-// bg-gradient-to-r from-main-dark-blue to-main-strong-blue h-screen
