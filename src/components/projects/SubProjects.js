@@ -9,10 +9,10 @@ export default function SubProjects() {
   return (
     <div className='grid grid-cols-1 gap-[1rem] lg:grid-cols-12'>
         <LazyLoadComponent>
-        <div className="sub-projects flex overflow-hidden bg-gradient-black bg-cover bg-no-repeat lg:bg-none rounded-xl lg:col-span-8"
+        <div className="sub-projects flex overflow-hidden bg-gradient-black bg-auto bg-no-repeat lg:bg-none rounded-xl lg:col-span-8"
         data-aos='fade-right' data-aos-offset='300'>
         <div className="project-1 px-6 py-8 bg-gradient-black bg-no-repeat w-full shrink-0  rounded-xl">
-            <div className="project-wrapper flex flex-col justify-end bg-black bg-opacity-80 bg-blend-overlay bg-rest-countries-project bg-cover h-full bg-no-repeat rounded-lg overflow-hidden p-4">
+            <div className="project-wrapper flex flex-col justify-end    bg-rest-countries-project bg-opacity-50 bg-cover bg-no-repeat bg-top lg:h-full rounded-lg overflow-hidden p-4">
                 <h3 className=' font-semibold text-2xl mb-4'>
                     Rest Countries API Website
                 </h3>
@@ -47,7 +47,7 @@ export default function SubProjects() {
         <div className="sub-projects flex overflow-hidden bg-gradient-black bg-cover bg-no-repeat lg:bg-none rounded-xl lg:col-span-4"
         data-aos='fade-left' data-aos-offset='300'>
         <div className="project-2 px-6 py-8 bg-gradient-black bg-no-repeat w-full shrink-0 rounded-xl">
-            <div className="project-wrapper flex flex-col justify-end bg-black bg-opacity-80 bg-blend-overlay bg-url-shortening-project bg-cover h-full bg-no-repeat rounded-lg overflow-hidden p-4">
+            <div className="project-wrapper flex flex-col justify-end bg-black bg-opacity-80 bg-blend-overlay bg-url-shortening-project bg-cover lg:h-full bg-no-repeat rounded-lg overflow-hidden p-4">
                 <h3 className=' font-semibold text-2xl mb-4'>
                     URL Shortening Website
                 </h3>
@@ -82,7 +82,7 @@ export default function SubProjects() {
         <div className="sub-projects flex overflow-hidden bg-gradient-black bg-cover bg-no-repeat lg:bg-none rounded-xl lg:col-span-4"
         data-aos='fade-right' data-aos-offset='300'>
         <div className="project-3 px-6 py-8 bg-gradient-black bg-no-repeat w-full shrink-0 rounded-xl">
-            <div className="project-wrapper flex flex-col justify-end bg-black bg-opacity-80 bg-blend-overlay bg-ip-address-tracker-project bg-cover h-full bg-no-repeat rounded-lg overflow-hidden p-4">
+            <div className="project-wrapper flex flex-col justify-end bg-black bg-opacity-80 bg-blend-overlay bg-ip-address-tracker-project bg-cover lg:h-full bg-no-repeat rounded-lg overflow-hidden p-4">
                 <h3 className=' font-semibold text-2xl mb-4'>
                     IP Address Tracker Website
                 </h3>
@@ -118,7 +118,7 @@ export default function SubProjects() {
         <div className="sub-projects flex overflow-hidden bg-gradient-black bg-cover bg-no-repeat lg:bg-none rounded-xl lg:col-span-8"
         data-aos='fade-left' data-aos-offset='300'>
         <div className="project-4 px-6 py-8 bg-gradient-black bg-no-repeat w-full shrink-0 rounded-xl">
-            <div className="project-wrapper flex flex-col justify-end bg-black bg-opacity-80 bg-blend-overlay bg-calculator-app-project bg-cover bg-center h-full bg-no-repeat rounded-lg overflow-hidden p-4">
+            <div className="project-wrapper flex flex-col justify-end bg-black bg-opacity-80 bg-blend-overlay bg-calculator-app-project bg-cover bg-center lg:h-full bg-no-repeat rounded-lg overflow-hidden p-4">
                 <h3 className=' font-semibold text-2xl mb-4'>
                     Calculator App
                 </h3>
