@@ -9,9 +9,8 @@ export default function SubProjects() {
   return (
     <div className='grid grid-cols-1 gap-[1rem] lg:grid-cols-12'>
         <LazyLoadComponent>
-        <div className="sub-projects flex overflow-hidden bg-gradient-black bg-auto bg-no-repeat lg:bg-none rounded-xl lg:col-span-8"
+        <div className="project-1 px-6 py-8 lg:col-span-8 overflow-hidden bg-gradient-black bg-auto bg-no-repeat w-full shrink-0  rounded-xl"
         data-aos='fade-right' data-aos-offset='300'>
-        <div className="project-1 px-6 py-8 bg-gradient-black bg-no-repeat w-full shrink-0  rounded-xl">
             <div className="project-wrapper flex flex-col justify-end bg-black bg-opacity-80 bg-blend-overlay bg-rest-countries-project bg-cover bg-no-repeat bg-top lg:h-full rounded-lg overflow-hidden p-4">
                 <h3 className=' font-semibold text-2xl mb-4'>
                     Rest Countries API Website
@@ -30,24 +29,22 @@ export default function SubProjects() {
                 
                 <a href='https://fascinating-lily-f1ce41.netlify.app/' target="_blank" rel="noreferrer">
                 <button className='font-semibold w-full text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
-                hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Live View</button>
+                hover:bg-neutral-400 hover:text-main-black lg:transition-colors lg:duration-200'>Live View</button>
                 </a>
 
                 <a href='https://github.com/revin212/rest-countries-api-with-color-theme-switcher/' target="_blank" rel="noreferrer">
                 <button className='font-semibold w-full text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
-                hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Source Code</button>
+                hover:bg-neutral-400 hover:text-main-black lg:transition-colors lg:duration-200'>Source Code</button>
                 </a>
                 </div>
             </div>
         </div>
-        </div>
         </LazyLoadComponent>
     
         <LazyLoadComponent>
-        <div className="sub-projects flex overflow-hidden bg-gradient-black bg-cover bg-no-repeat lg:bg-none rounded-xl lg:col-span-4"
+        <div className="project-2 px-6 py-8 lg:col-span-4 overflow-hidden bg-gradient-black bg-cover bg-no-repeat w-full shrink-0 rounded-xl"
         data-aos='fade-left' data-aos-offset='300'>
-        <div className="project-2 px-6 py-8 bg-gradient-black bg-no-repeat w-full shrink-0 rounded-xl">
-            <div className="project-wrapper flex flex-col justify-end bg-black bg-opacity-80 bg-blend-overlay bg-url-shortening-project bg-cover lg:h-full bg-no-repeat rounded-lg overflow-hidden p-4">
+            <div className="project-wrapper flex flex-col justify-end bg-black bg-opacity-80 bg-blend-overlay bg-url-shortening-project bg-cover bg-no-repeat lg:h-full rounded-lg overflow-hidden p-4">
                 <h3 className=' font-semibold text-2xl mb-4'>
                     URL Shortening Website
                 </h3>
@@ -65,24 +62,22 @@ export default function SubProjects() {
                 
                 <a href='https://revin-url-shortening-app.netlify.app/' target="_blank" rel="noreferrer">
                 <button className='font-semibold w-full text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
-                hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Live View</button>
+                hover:bg-neutral-400 hover:text-main-black lg:transition-colors lg:duration-200'>Live View</button>
                 </a>
 
                 <a href='https://github.com/revin212/url-shortening-app' target="_blank" rel="noreferrer">
                 <button className='font-semibold w-full text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
-                hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Source Code</button>
+                hover:bg-neutral-400 hover:text-main-black lg:transition-colors lg:duration-200'>Source Code</button>
                 </a>
                 </div>
             </div>
         </div>
-        </div>
         </LazyLoadComponent>
 
         <LazyLoadComponent>
-        <div className="sub-projects flex overflow-hidden bg-gradient-black bg-cover bg-no-repeat lg:bg-none rounded-xl lg:col-span-4"
+        <div className="project-3 px-6 py-8 lg:col-span-4 overflow-hidden bg-gradient-black bg-cover bg-no-repeat w-full shrink-0 rounded-xl"
         data-aos='fade-right' data-aos-offset='300'>
-        <div className="project-3 px-6 py-8 bg-gradient-black bg-no-repeat w-full shrink-0 rounded-xl">
-            <div className="project-wrapper flex flex-col justify-end bg-black bg-opacity-80 bg-blend-overlay bg-ip-address-tracker-project bg-cover lg:h-full bg-no-repeat rounded-lg overflow-hidden p-4">
+            <div className="project-wrapper flex flex-col justify-end bg-black bg-opacity-80 bg-blend-overlay bg-ip-address-tracker-project bg-cover bg-no-repeat lg:h-full rounded-lg overflow-hidden p-4">
                 <h3 className=' font-semibold text-2xl mb-4'>
                     IP Address Tracker Website
                 </h3>
@@ -101,24 +96,22 @@ export default function SubProjects() {
                 
                 <a href='https://ip-adress-tracker-one.vercel.app/' target="_blank" rel="noreferrer">
                 <button className='font-semibold w-full text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
-                hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Live View</button>
+                hover:bg-neutral-400 hover:text-main-black lg:transition-colors lg:duration-200'>Live View</button>
                 </a>
 
                 <a href='https://github.com/revin212/ip-adress-tracker' target="_blank" rel="noreferrer">
                 <button className='font-semibold w-full text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
-                hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Source Code</button>
+                hover:bg-neutral-400 hover:text-main-black lg:transition-colors lg:duration-200'>Source Code</button>
                 </a>
                 </div>
             </div>
         </div>
-        </div>
         </LazyLoadComponent>
 
         <LazyLoadComponent>
-        <div className="sub-projects flex overflow-hidden bg-gradient-black bg-cover bg-no-repeat lg:bg-none rounded-xl lg:col-span-8"
+        <div className="project-4 lg:col-span-8 overflow-hidden px-6 py-8 bg-gradient-black bg-cover bg-no-repeat w-full shrink-0 rounded-xl"
         data-aos='fade-left' data-aos-offset='300'>
-        <div className="project-4 px-6 py-8 bg-gradient-black bg-no-repeat w-full shrink-0 rounded-xl">
-            <div className="project-wrapper flex flex-col justify-end bg-black bg-opacity-80 bg-blend-overlay bg-calculator-app-project bg-cover bg-center lg:h-full bg-no-repeat rounded-lg overflow-hidden p-4">
+            <div className="project-wrapper flex flex-col justify-end bg-black bg-opacity-80 bg-blend-overlay bg-calculator-app-project bg-cover bg-center bg-no-repeat lg:h-full rounded-lg overflow-hidden p-4">
                 <h3 className=' font-semibold text-2xl mb-4'>
                     Calculator App
                 </h3>
@@ -137,16 +130,15 @@ export default function SubProjects() {
                 
                 <a href='https://calculator-app-theta-five.vercel.app/' target="_blank" rel="noreferrer">
                 <button className='font-semibold w-full text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
-                hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Live View</button>
+                hover:bg-neutral-400 hover:text-main-black lg:transition-colors lg:duration-200'>Live View</button>
                 </a>
 
                 <a href='https://github.com/revin212/calculator-app' target="_blank" rel="noreferrer">
                 <button className='font-semibold w-full text-md rounded-xl px-3 py-2 bg-neutral-dark-gray
-                hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Source Code</button>
+                hover:bg-neutral-400 hover:text-main-black lg:transition-colors lg:duration-200'>Source Code</button>
                 </a>
                 </div>
             </div>
-        </div>
         </div>
         </LazyLoadComponent>
     </div>
