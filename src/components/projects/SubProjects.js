@@ -12,15 +12,15 @@ export default function SubProjects() {
         <div className="sub-projects flex overflow-hidden bg-gradient-black bg-auto bg-no-repeat lg:bg-none rounded-xl lg:col-span-8"
         data-aos='fade-right' data-aos-offset='300'>
         <div className="project-1 px-6 py-8 bg-gradient-black bg-no-repeat w-full shrink-0  rounded-xl">
-            <div className="project-wrapper flex flex-col justify-end    bg-rest-countries-project bg-opacity-50 bg-cover bg-no-repeat bg-top lg:h-full rounded-lg overflow-hidden p-4">
+            <div className="project-wrapper flex flex-col justify-end bg-black bg-opacity-80 bg-blend-overlay bg-rest-countries-project bg-cover bg-no-repeat bg-top lg:h-full rounded-lg overflow-hidden p-4">
                 <h3 className=' font-semibold text-2xl mb-4'>
                     Rest Countries API Website
                 </h3>
 
                 <div className="stacks text-sm flex flex-wrap items-center gap-4 justify-center lg:justify-start mb-2">
-                    <img src={htmlIcon} alt="html" className='w-[30px]' />
-                    <img src={tailwindIcon} alt="tailwind" className='w-[30px]' />
-                    <img src={reactjsIcon} alt="reactjs" className='w-[30px]' />
+                    <img src={htmlIcon} alt="html" width="30px" height="30px" />
+                    <img src={tailwindIcon} alt="tailwind" width="30px" height="30px" />
+                    <img src={reactjsIcon} alt="reactjs" width="30px" height="30px" />
                 </div>
 
                 <p>
@@ -53,9 +53,9 @@ export default function SubProjects() {
                 </h3>
 
                 <div className="stacks text-sm flex flex-wrap items-center gap-4 justify-center lg:justify-start mb-2">
-                    <img src={htmlIcon} alt="html" className='w-[30px]' />
-                    <img src={tailwindIcon} alt="tailwind" className='w-[30px]' />
-                    <img src={reactjsIcon} alt="reactjs" className='w-[30px]' />
+                    <img src={htmlIcon} alt="html" width="30px" height="30px" />
+                    <img src={tailwindIcon} alt="tailwind" width="30px" height="30px" />
+                    <img src={reactjsIcon} alt="reactjs" width="30px" height="30px" />
                 </div>
 
                 <p>
@@ -88,9 +88,9 @@ export default function SubProjects() {
                 </h3>
 
                 <div className="stacks text-sm flex flex-wrap items-center gap-4 justify-center lg:justify-start mb-2">
-                    <img src={htmlIcon} alt="html" className='w-[30px]' />
-                    <img src={tailwindIcon} alt="tailwind" className='w-[30px]' />
-                    <img src={jsIcon} alt="js" className='w-[30px]' />
+                    <img src={htmlIcon} alt="html" width="30px" height="30px" />
+                    <img src={tailwindIcon} alt="tailwind" width="30px" height="30px" />
+                    <img src={jsIcon} alt="js" width="30px" height="30px" />
                 </div>
 
                 <p>
@@ -124,9 +124,9 @@ export default function SubProjects() {
                 </h3>
 
                 <div className="stacks text-sm flex flex-wrap items-center gap-4 justify-center lg:justify-start mb-2">
-                    <img src={htmlIcon} alt="html" className='w-[30px]' />
-                    <img src={tailwindIcon} alt="tailwind" className='w-[30px]' />
-                    <img src={jsIcon} alt="js" className='w-[30px]' />
+                    <img src={htmlIcon} alt="html" width="30px" height="30px" />
+                    <img src={tailwindIcon} alt="tailwind" width="30px" height="30px" />
+                    <img src={jsIcon} alt="js" width="30px" height="30px" />
                 </div>
 
                 <p>

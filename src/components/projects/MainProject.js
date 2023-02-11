@@ -15,12 +15,12 @@ export default function MainProject() {
             data-aos='fade-right' data-aos-offset='300'>
               <h3 className=' font-bold text-3xl lg:text-4xl mb-[1.5rem]'>Simple Social Media Website</h3>
               <div className="stacks text-sm flex flex-wrap items-center gap-4 justify-center lg:justify-start">
-                <img src={htmlIcon} alt="html" className='w-[30px]' />
-                <img src={tailwindIcon} alt="tailwind" className='w-[30px]' />
-                <img src={reactjsIcon} alt="reactjs" className='w-[30px]' />
-                <img src={expressjsIcon} alt="expressjs" className='w-[60px]' />
-                <img src={mysqlIcon} alt="mysql" className='w-[40px]' />
-                <img src={jwtIcon} alt="jwt" className='w-[30px]' />
+                <img src={htmlIcon} alt="html" width="30px" height="30px"  />
+                <img src={tailwindIcon} alt="tailwind" width="30px" height="30px"  />
+                <img src={reactjsIcon} alt="reactjs" width="30px" height="30px"  />
+                <img src={expressjsIcon} alt="expressjs" width="60px" height="40px" />
+                <img src={mysqlIcon} alt="mysql" width="40px" height="40px" />
+                <img src={jwtIcon} alt="jwt" width="30px" height="30px"  />
               </div>
               <div className="desc my-[1.5rem]">
                 <p>
@@ -29,12 +29,12 @@ export default function MainProject() {
                 <div className="buttons flex gap-[1.5rem] justify-center lg:justify-start">
                   <a href='https://simple-social-media-by-revin.firebaseapp.com' target="_blank" rel="noreferrer">
                   <button className='font-semibold text-md mt-[1.5rem] rounded-xl px-3 py-2 bg-neutral-dark-gray
-                   hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Live View</button>
+                   hover:bg-neutral-400 hover:text-main-black lg:transition-colors lg:duration-200'>Live View</button>
                   </a>
 
                   <a href='https://github.com/revin212/simple-social-media-with-login' target="_blank" rel="noreferrer">
                   <button className='font-semibold text-md mt-[1.5rem] rounded-xl px-3 py-2 bg-neutral-dark-gray
-                   hover:bg-neutral-400 hover:text-main-black transition-colors duration-200'>Source Code</button>
+                   hover:bg-neutral-400 hover:text-main-black lg:transition-colors lg:duration-200'>Source Code</button>
                   </a>
                 </div>
               </div>
@@ -43,7 +43,7 @@ export default function MainProject() {
             <div id='main-project-img' className="project-img bg-gradient-black bg-cover bg-no-repeat rounded-xl p-[1.5rem] h-full lg:w-full"
             data-aos='fade-left' data-aos-offset='300'>
               <LazyLoadComponent>
-              <div className="img h-[350px] lg:h-full rounded-xl bg-simple-socmed-project bg-cover lg:bg-top bg-no-repeat">
+              <div className="img min-h-[350px] lg:h-full rounded-xl bg-simple-socmed-project bg-cover lg:bg-top bg-no-repeat">
               </div>
               </LazyLoadComponent>
             </div>

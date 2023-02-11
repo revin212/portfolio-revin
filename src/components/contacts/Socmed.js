@@ -14,27 +14,27 @@ export default function Socmed() {
             data-aos='fade-left' data-aos-offset='-300'>
         <a href='https://github.com/revin212' target="_blank" rel="noreferrer">
           <LazyLoadImage
-          src={githubIcon} alt="github" className='w-[64px]' />
+          src={githubIcon} alt="github" width="64px" height="64px" />
         </a>
 
         <a href='https://www.linkedin.com/in/revin-dennis-ramadhan' target="_blank" rel="noreferrer">
           <LazyLoadImage
-          src={linkedinIcon} alt="linkedin" className='w-[64px]' />
+          src={linkedinIcon} alt="linkedin" width="64px" height="64px" />
         </a>
 
         <a href='https://www.instagram.com/revindr21/' target="_blank" rel="noreferrer">
           <LazyLoadImage
-          src={instagramIcon} alt="instagram" className='w-[64px]' />
+          src={instagramIcon} alt="instagram" width="64px" height="64px" />
         </a>
 
         <a href='https://www.frontendmentor.io/profile/revin212' target="_blank" rel="noreferrer">
           <LazyLoadImage
-          src={frontendmentorIcon} alt="frontendmentor" className='w-[64px]' />
+          src={frontendmentorIcon} alt="frontendmentor" width="64px" height="64px" />
         </a>
 
         <a href='https://leetcode.com/revinramadhan' target="_blank" rel="noreferrer">
           <LazyLoadImage
-          src={leetcodeIcon} alt="leetcode" className='w-[64px]' />
+          src={leetcodeIcon} alt="leetcode" width="64px" height="64px" />
         </a>
       </div>
     </div>

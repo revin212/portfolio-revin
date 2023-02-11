@@ -29,34 +29,34 @@ export default function Skills() {
               <div className="front-end mb-[3rem] lg:mb-4 lg:w-[30%]" data-aos='fade-right'>
                 <h2 className='font-semibold text-center text-[1.5rem] mb-4'>Front End</h2>
                 <div className="stack-icons w-full flex flex-wrap justify-center gap-4">                  
-                  <LazyLoadImage src={htmlIcon} alt="html" />
-                  <LazyLoadImage src={cssIcon} alt="css" />
-                  <LazyLoadImage src={jsIcon} alt="javascript" className='w-[64px]' />
-                  <LazyLoadImage src={sassIcon} alt="sass" className='w-[64px]' />
-                  <LazyLoadImage src={tailwindIcon} alt="tailwind" className='w-[64px]' />
-                  <LazyLoadImage src={reactjsIcon} alt="react-js" className='w-[64px]' />
-                  <LazyLoadImage src={gatsbyjsIcon} alt="gatsby-js" className='w-[64px]' />
+                  <LazyLoadImage src={htmlIcon} alt="html" width="64px" height="64px" />
+                  <LazyLoadImage src={cssIcon} alt="css" width="64px" height="64px" />
+                  <LazyLoadImage src={jsIcon} alt="javascript" width="64px" height="64px" />
+                  <LazyLoadImage src={sassIcon} alt="sass" width="64px" height="64px" />
+                  <LazyLoadImage src={tailwindIcon} alt="tailwind" width="64px" height="64px" />
+                  <LazyLoadImage src={reactjsIcon} alt="react-js" width="64px" height="64px" />
+                  <LazyLoadImage src={gatsbyjsIcon} alt="gatsby-js" width="64px" height="64px" />
                 </div>
               </div>
 
               <div className="back-end mb-[3rem] lg:mb-4 lg:w-[30%]" data-aos='fade-right'>
                 <h2 className='font-semibold text-center text-[1.5rem] mb-4'>Back End</h2>
                 <div className="stack-icons w-full flex flex-wrap justify-center gap-4">
-                  <LazyLoadImage src={nodejsIcon} alt="node-js" className='w-[64px]' />
-                  <LazyLoadImage src={expressjsIcon} alt="express-js" className='w-[100px]' />
-                  <LazyLoadImage src={mysqlIcon} alt="mysql" className='w-[64px]' />
-                  <LazyLoadImage src={jwtIcon} alt="jwt" className='w-[64px]' />
-                  <LazyLoadImage src={sequelizeIcon} alt="sequelize" className='w-[64px] h-[64px]' />
+                  <LazyLoadImage src={nodejsIcon} alt="node-js" width="64px" height="64px" />
+                  <LazyLoadImage src={expressjsIcon} alt="express-js" width="100px" height="64px" />
+                  <LazyLoadImage src={mysqlIcon} alt="mysql" width="64px" height="64px" />
+                  <LazyLoadImage src={jwtIcon} alt="jwt" width="64px" height="64px" />
+                  <LazyLoadImage src={sequelizeIcon} alt="sequelize" width="64px" height="64px" />
                 </div>
               </div>
 
               <div className="other-stack mb-[3rem] lg:mb-4 lg:w-[30%]" data-aos='fade-right'>
                 <h2 className='font-semibold text-center text-[1.5rem] mb-4'>Other Tools</h2>
                 <div className="stack-icons w-full flex flex-wrap justify-center gap-4">
-                  <LazyLoadImage src={gitIcon} alt="git" className='w-[64px]' />
-                  <LazyLoadImage src={figmaIcon} alt="figma" className='w-[64px]' />
-                  <LazyLoadImage src={canvaIcon} alt="canva" className='w-[64px]' />
-                  <LazyLoadImage src={wordpressIcon} alt="wordpress" className='w-[64px]' />
+                  <LazyLoadImage src={gitIcon} alt="git" width="64px" height="64px" />
+                  <LazyLoadImage src={figmaIcon} alt="figma" width="64px" height="64px" />
+                  <LazyLoadImage src={canvaIcon} alt="canva" width="64px" height="64px" />
+                  <LazyLoadImage src={wordpressIcon} alt="wordpress" width="64px" height="64px" />
                 </div>
               </div>
                 

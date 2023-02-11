@@ -10,8 +10,8 @@ export default function Hero() {
           <div className='img-container lg: mb-[2rem]' >
             <LazyLoadImage
             src={Photo} 
-            alt="Profile" 
-            className='w-[350px]' 
+            alt="Profile"
+            width="350px" 
             data-aos='fade-left' />            
           </div>
 
