@@ -9,7 +9,7 @@ export default function SubProjects() {
   return (
     <div className='grid grid-cols-1 gap-[1rem] lg:grid-cols-12'>
         <LazyLoadComponent>
-        <div className="project-1 px-6 py-8 lg:col-span-8 overflow-hidden bg-gradient-black bg-auto bg-no-repeat w-full shrink-0  rounded-xl"
+        <div className="project-1 px-6 py-8 lg:col-span-8 overflow-hidden bg-gradient-black bg-cover bg-no-repeat w-full shrink-0  rounded-xl"
         data-aos='fade-right' data-aos-offset='300'>
             <div className="project-wrapper flex flex-col justify-end bg-black bg-opacity-80 bg-blend-overlay bg-rest-countries-project bg-cover bg-no-repeat bg-top lg:h-full rounded-lg overflow-hidden p-4">
                 <h3 className=' font-semibold text-2xl mb-4'>
