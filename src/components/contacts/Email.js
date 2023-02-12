@@ -1,17 +1,20 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useForm, ValidationError } from '@formspree/react';
 import { useRef } from 'react';
 
 export default function Email() {
   const [state, handleSubmit] = useForm("mbjedbgo");
-  const [isSucceeded, setIsSucceeded] = useState(state.succeeded);
+  const [isSucceeded, setIsSucceeded] = useState(false);
   const formRef = useRef();
 
-  if (isSucceeded) {
-      alert('Thanks for the message!')
-      setIsSucceeded(false)
-      formRef.current.reset();
-  }
+  useEffect(() => {
+    if (isSucceeded) {
+        alert('Thanks for the message!')
+        setIsSucceeded(false)
+        formRef.current.reset();
+    }
+  }, [isSucceeded])
+  
 
   return (
     <div className="email-wrapper max-w-[1132px] mx-auto">
@@ -22,7 +25,7 @@ export default function Email() {
         <form onSubmit={
             async (e)=>{
                 try{await handleSubmit(e); setIsSucceeded(true)}
-                catch(err){console.log(err)}
+                catch(err){alert("Something went wrong")}
             }
         }
             className='flex flex-col'
