@@ -19,7 +19,7 @@ export default function Email() {
   return (
     <div className="email-wrapper max-w-[1132px] mx-auto">
         <h2 className='projects-title font-bold text-[2.8rem] text-center mb-[1.5rem] lg:mb-[3rem]'
-        data-aos='fade-down' data-aos-offset='-200'>
+        data-aos='fade-zoom-in' data-aos-offset='-200' data-aos-duration='1000'>
                 EMAIL ME
         </h2>
         <form onSubmit={
