@@ -26,7 +26,7 @@ export default function Skills() {
                 SKILLS
             </h2>
             <div className="skills-list bg-gradient-black bg-cover bg-right-bottom bg-no-repeat p-4 rounded-lg lg:flex lg:justify-between">
-              <div className="front-end mb-[3rem] lg:mb-4 lg:w-[30%]" data-aos='fade-zoom-in' data-aos-offset='300'>
+              <div className="front-end mb-[3rem] lg:mb-4 lg:w-[30%]" data-aos='fade-zoom-in' data-aos-offset='300' data-aos-duration='1000'>
                 <h2 className='font-semibold text-center text-[1.5rem] mb-4'>Front End</h2>
                 <div className="stack-icons w-full flex flex-wrap justify-center gap-4">                  
                   <LazyLoadImage src={htmlIcon} alt="html" width="64px" height="64px" />
@@ -39,7 +39,7 @@ export default function Skills() {
                 </div>
               </div>
 
-              <div className="back-end mb-[3rem] lg:mb-4 lg:w-[30%]" data-aos='fade-zoom-in' data-aos-offset='300'>
+              <div className="back-end mb-[3rem] lg:mb-4 lg:w-[30%]" data-aos='fade-zoom-in' data-aos-offset='300' data-aos-duration='1000'>
                 <h2 className='font-semibold text-center text-[1.5rem] mb-4'>Back End</h2>
                 <div className="stack-icons w-full flex flex-wrap justify-center gap-4">
                   <LazyLoadImage src={nodejsIcon} alt="node-js" width="64px" height="64px" />
@@ -50,7 +50,7 @@ export default function Skills() {
                 </div>
               </div>
 
-              <div className="other-stack mb-[3rem] lg:mb-4 lg:w-[30%]" data-aos='fade-zoom-in' data-aos-offset='300'>
+              <div className="other-stack mb-[3rem] lg:mb-4 lg:w-[30%]" data-aos='fade-zoom-in' data-aos-offset='300' data-aos-duration='1000'>
                 <h2 className='font-semibold text-center text-[1.5rem] mb-4'>Other Tools</h2>
                 <div className="stack-icons w-full flex flex-wrap justify-center gap-4">
                   <LazyLoadImage src={gitIcon} alt="git" width="64px" height="64px" />
