@@ -1,13 +1,18 @@
 import React, {useState} from 'react'
 
 export default function AnimationOnScroll() {
-  const [scroll, setScroll] = useState(0)
- 
-    document.addEventListener('scroll', (e)=>{
-        setScroll(e)
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) =>{
+      if(entry.isIntersecting){
+        entry.target.classList.add('active');
+      } else {
+        entry.target.classList.remove('active');
+      }
     })
-  return (
-    <>
-    </>
-  )
+  })
+
+  const hiddenElements = document.querySelectorAll('inactive');
+  hiddenElements.forEach((element) => observer.observe(element));
+
+  return 
 }
