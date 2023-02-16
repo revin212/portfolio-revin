@@ -25,7 +25,7 @@ export default function Skills() {
                 data-aos='fade-down' data-aos-offset='300'>
                 SKILLS
             </h2>
-            <div className="skills-list bg-gradient-black bg-cover bg-right-bottom bg-no-repeat p-4 rounded-lg lg:flex lg:justify-between">
+            <div className="skills-list bg-gradient-black bg-cover bg-right-bottom bg-no-repeat p-4 rounded-lg flex flex-col lg:flex-row lg:justify-between">
               <div className="front-end mb-[3rem] lg:mb-4 lg:w-[30%]" data-aos='fade-zoom-in' data-aos-offset='300' data-aos-duration='1000'>
                 <h2 className='font-semibold text-center text-[1.5rem] mb-4'>Front End</h2>
                 <div className="stack-icons w-full flex flex-wrap justify-center gap-4">                  

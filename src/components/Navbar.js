@@ -33,7 +33,7 @@ export default function Navbar() {
         <nav className='flex justify-between items-center py-[1rem] lg:py-[4px] max-w-[1132px] mx-auto'>
           <div className="leftmenu">
               <Link to='hero' spy={true} smooth={true} duration={500} offset={-80} className="cursor-pointer">
-                <img src={logo} alt="" className='w-[50px]' />
+                <img src={logo} alt="" width="50px" height="50px" />
               </Link>
           </div>
           <div className="rightmenu">
