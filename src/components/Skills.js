@@ -15,7 +15,6 @@ import dockerIcon from '../images/docker-icon.svg'
 import gitIcon from '../images/git-icon.svg'
 import figmaIcon from '../images/figma-icon.svg'
 import canvaIcon from '../images/canva-icon.svg'
-import wordpressIcon from '../images/wordpress-icon.svg'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 export default function Skills() {
@@ -53,12 +52,11 @@ export default function Skills() {
 
               <div className="other-stack mb-[3rem] lg:mb-4 lg:w-[30%]" data-aos='fade-zoom-in' data-aos-offset='300' data-aos-duration='1000'>
                 <h2 className='font-semibold text-center text-[1.5rem] mb-4'>Other Tools</h2>
-                <div className="stack-icons w-full flex flex-wrap justify-center gap-4">
+                <div className="stack-icons w-full flex flex-wrap justify-center gap-6">
                   <LazyLoadImage src={gitIcon} alt="git" width="64px" height="64px" />
-                  <LazyLoadImage src={dockerIcon} alt="wordpress" width="70px" height="70px" />
+                  <LazyLoadImage src={dockerIcon} alt="wordpress" width="80px" height="80px" />
                   <LazyLoadImage src={figmaIcon} alt="figma" width="64px" height="64px" />
-                  <LazyLoadImage src={canvaIcon} alt="canva" width="64px" height="64px" />
-                  <LazyLoadImage src={wordpressIcon} alt="wordpress" width="64px" height="64px" />
+                  <LazyLoadImage src={canvaIcon} alt="canva" width="60px" height="60px" />
                 </div>
               </div>
                 
