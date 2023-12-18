@@ -5,12 +5,13 @@ import jsIcon from '../images/javascript-icon.svg'
 import sassIcon from '../images/sass-icon.svg'
 import tailwindIcon from '../images/tailwindcss-icon.svg'
 import reactjsIcon from '../images/reactjs-icon.svg'
-import gatsbyjsIcon from '../images/gatsbyjs-icon.svg'
 import nodejsIcon from '../images/nodejs-icon.svg'
 import expressjsIcon from '../images/expressjs-icon.svg'
 import mysqlIcon from '../images/mysql-icon.svg'
 import jwtIcon from '../images/jwt-icon.svg'
-import sequelizeIcon from '../images/sequelize-icon.svg'
+import netCoreIcon from '../images/net-core-icon.svg'
+import materialuiIcon from '../images/material-ui-icon.svg'
+import dockerIcon from '../images/docker-icon.svg'
 import gitIcon from '../images/git-icon.svg'
 import figmaIcon from '../images/figma-icon.svg'
 import canvaIcon from '../images/canva-icon.svg'
@@ -35,7 +36,7 @@ export default function Skills() {
                   <LazyLoadImage src={sassIcon} alt="sass" width="64px" height="64px" />
                   <LazyLoadImage src={tailwindIcon} alt="tailwind" width="64px" height="64px" />
                   <LazyLoadImage src={reactjsIcon} alt="react-js" width="64px" height="64px" />
-                  <LazyLoadImage src={gatsbyjsIcon} alt="gatsby-js" width="64px" height="64px" />
+                  <LazyLoadImage src={materialuiIcon} alt="gatsby-js" width="64px" height="64px" />
                 </div>
               </div>
 
@@ -46,7 +47,7 @@ export default function Skills() {
                   <LazyLoadImage src={expressjsIcon} alt="express-js" width="100px" height="64px" />
                   <LazyLoadImage src={mysqlIcon} alt="mysql" width="64px" height="64px" />
                   <LazyLoadImage src={jwtIcon} alt="jwt" width="64px" height="64px" />
-                  <LazyLoadImage src={sequelizeIcon} alt="sequelize" width="64px" height="64px" />
+                  <LazyLoadImage src={netCoreIcon} alt="sequelize" width="64px" height="64px" />
                 </div>
               </div>
 
@@ -54,6 +55,7 @@ export default function Skills() {
                 <h2 className='font-semibold text-center text-[1.5rem] mb-4'>Other Tools</h2>
                 <div className="stack-icons w-full flex flex-wrap justify-center gap-4">
                   <LazyLoadImage src={gitIcon} alt="git" width="64px" height="64px" />
+                  <LazyLoadImage src={dockerIcon} alt="wordpress" width="70px" height="70px" />
                   <LazyLoadImage src={figmaIcon} alt="figma" width="64px" height="64px" />
                   <LazyLoadImage src={canvaIcon} alt="canva" width="64px" height="64px" />
                   <LazyLoadImage src={wordpressIcon} alt="wordpress" width="64px" height="64px" />

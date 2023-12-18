@@ -26,8 +26,8 @@ module.exports = {
         'rest-countries-project': "url('../images/rest-countries-api.png')",
         'url-shortening-project': "url('../images/url-shortening.png')",
         'ip-address-tracker-project': "url('../images/ip-address-tracker.png')",
-        'calculator-app-project': "url('../images/calculator-app.png')",
         'simple-socmed-project': "url('../images/simple-socmed.png')",
+        'apel-music-project': "url('../images/apel-music.png')",
       },
 
       backgroundSize: {
